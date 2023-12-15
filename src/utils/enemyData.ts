@@ -10,14 +10,14 @@ import rocket from "../assets/png/rocket.png";
 import galaxyFirst from "../assets/png/galaxyFirst.jpg";
 import galaxySecond from "../assets/png/galaxySecond.jpg";
 
-import shoot from "../assets/sounds/shoot.mp3";
+import bang from "../assets/sounds/bang.mp3";
 import boom from "../assets/sounds/boom.mp3";
 import levelOne from "../assets/sounds/levelOne.mp3";
-import level2 from "../assets/sounds/2level.mp3";
-import enemyShoot from "../assets/sounds/enemyShoot.mp3";
+import levelTwo from "../assets/sounds/levelTwo.mp3";
+import bossShoot from "../assets/sounds/bossShoot.mp3";
 import lose from "../assets/sounds/lose.mp3";
 import win from "../assets/sounds/win.mp3";
-import swichLevel from "../assets/sounds/swichLevel.mp3";
+import nextLevel from "../assets/sounds/nextLevel.mp3";
 import { EnemyId } from "../types/types";
 import { BaseTexture, Rectangle, Texture } from "pixi.js";
 
@@ -42,13 +42,13 @@ export const IMG = {
 
 export const mp3 = {
   levelOne,
-  level2,
-  shoot,
-  enemyShoot,
+  levelTwo,
+  bang,
+  bossShoot,
   lose,
   win,
   boom,
-  swichLevel,
+  nextLevel,
 };
 
 const texture = BaseTexture.from(explotion2);
